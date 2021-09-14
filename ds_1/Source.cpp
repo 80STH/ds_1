@@ -7,11 +7,11 @@ void main()
 	setlocale(LC_ALL, "RUS");
 	float x,y,R;
 	int N;
-	printf_s("Введите x, y и радиус круга:");
+	printf_s("Г‚ГўГҐГ¤ГЁГІГҐ x, y ГЁ Г°Г Г¤ГЁГіГ± ГЄГ°ГіГЈГ :");
 	scanf_s(" %f %f %f", &x, &y, &R);
-	if (pow(x, 2) + pow(y, 2) <= pow(R, 2)) N = 1;
+	if (pow(x, 2) + pow(y, 2) == pow(R, 2)) N = 1;
 		else N = 0;
-	if (N == 1) printf_s("Точка лежит в области круга");
-		else printf_s("Точка не лежит в области круга");
+	if (N == 1) printf_s("Г’Г®Г·ГЄГ  Г«ГҐГ¦ГЁГІ Гў Г®ГЎГ«Г Г±ГІГЁ ГЄГ°ГіГЈГ ");
+		else printf_s("Г’Г®Г·ГЄГ  Г­ГҐ Г«ГҐГ¦ГЁГІ Гў Г®ГЎГ«Г Г±ГІГЁ ГЄГ°ГіГЈГ ");
 	_getch();
 }
